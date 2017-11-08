@@ -14,11 +14,10 @@ export default class App extends React.Component {
 constructor(props) {
     super(props);
     this.state = {value: ''};
-    this.state = {cool: ''};
+  
      this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
-    this.handleChangee = this.handleChangee.bind(this);
-    this.handleSubmitt = this.handleSubmitt.bind(this);
+    
   }
    handleChange(event) {
     this.setState({value: event.target.value});
@@ -29,15 +28,7 @@ constructor(props) {
  
     event.preventDefault();
   }
-  handleChangee(eventt) {
-    this.setState({value: eventt.target.value});
-  }
-
-  handleSubmitt(eventt) {
-    
-    alert('Password:' + this.state.value);
-    eventt.preventDefault();
-  }
+  
   render() {
     return (
     <div id="parent">
