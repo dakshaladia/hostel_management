@@ -13,19 +13,23 @@ import React from 'react';
 export default class App extends React.Component {
 constructor(props) {
     super(props);
-    this.state = {value: ''};
+    this.state = {email:'',password:''};
   
      this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
-    
+     this.handleSubmit = this.handleSubmit.bind(this);
   }
+
    handleChange(event) {
-    this.setState({value: event.target.value});
+    if(event.target.name == "email"){
+        this.setState({email:event.target.value});
+    }
+    else{
+        this.setState({password: event.target.value});
+    }
   }
 
   handleSubmit(event) {
-    alert('Username:' + this.state.value);
- 
+    alert('Username:' + this.state.email+' Password '+this.state.password);
     event.preventDefault();
   }
   
@@ -48,18 +52,17 @@ constructor(props) {
           </br>
           <br>
           </br>
-          <form onSubmit={this.handleSubmitt}>
           <form onSubmit={this.handleSubmit}>
          
           <label>
           Username:
-            <input type="text" value= {this.state.value} onChange={this.handleChange} placeholder="Enter e-mail"/>
+            <input type="text" name="email" value= {this.state.email} onChange={this.handleChange} placeholder="Enter e-mail"/>
                </label>
                <br>
                </br>
                <label>
                Password:
-               <input type="text" value={this.state.value} onChange={this.handleChangee} placeholder="Enter password"/>
+               <input type="password" name="password" value={this.state.password} onChange={this.handleChange} placeholder="Enter password"/>
                </label>
                <br>
                </br>
@@ -67,7 +70,6 @@ constructor(props) {
                </br>
           <input type="submit" value="SignIn" />
       </form>
-    </form>
     </div> 
          </div>);
     }
