@@ -79,7 +79,9 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Hostel Management Portal
+                    
+                    Hostel Management Portal 
+                    
                 </div>
             </div>
         </div>
