@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+	
 <style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 body{
 background-color:lightcyan;
  text-align:center;
@@ -46,13 +50,17 @@ u{
 
 </head>
 <body>
+ 
+
 <div class="nav">
   <a class="active" href="#feesstruct">FEES STRUCTURE</a>
   <a href="">FACILITIES</a>
   <a href="">ABOUT US</a>
+<image img src="routes/images/phone.jpeg" style="width: 20%;height: 20%;">
+<p>91-987546976</p>
   
 </div>
-<img src="Hostel_Dormitory.jpg" alt="Students in hostel" style="width:100%;height:200px;">
+<img src="/home/daksha/Daksha/new-manage/hostel_management/storage/images" alt="Students in hostel" style="width:100%;height:200px;">
 <h1><u>TESTIMONIALS</u></h1>
 <p>"What a lovely hostel! Very clean,nice breakfast! The ladies(Tequita and Hannah-sorry for spelling) who worked there were so lovely and told us all the info we needed! Thank You!"</p>
 <p>Vinit Payal(Stay Period 2011-2015)</p>
