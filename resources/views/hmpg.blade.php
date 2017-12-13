@@ -56,11 +56,11 @@ u{
   <a class="active" href="#feesstruct">FEES STRUCTURE</a>
   <a href="">FACILITIES</a>
   <a href="">ABOUT US</a>
-<image img src="routes/images/phone.jpeg" style="width: 20%;height: 20%;">
+<image img src={{ asset('storage/images/phone.jpeg') }} style="width: 20%;height: 20%;">
 <p>91-987546976</p>
   
 </div>
-<img src="/home/daksha/Daksha/new-manage/hostel_management/storage/images" alt="Students in hostel" style="width:100%;height:200px;">
+<img src="../storage/images/Hostel_Dormitory.jpg" alt="Students in hostel" style="width:100%;height:200px;">
 <h1><u>TESTIMONIALS</u></h1>
 <p>"What a lovely hostel! Very clean,nice breakfast! The ladies(Tequita and Hannah-sorry for spelling) who worked there were so lovely and told us all the info we needed! Thank You!"</p>
 <p>Vinit Payal(Stay Period 2011-2015)</p>
