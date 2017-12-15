@@ -8,6 +8,7 @@
 <style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 body{
 background-color:red;	
  text-align:center;
@@ -60,10 +61,9 @@ h1{
 }
 
 /* Hide the images by default */
-/*.mySlides {
+.mySlides {
     display: none;
 }
-*/
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -216,7 +216,7 @@ function showSlides(n) {
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
 </div>
-/*<img src="../storage/images/Hostel_Dormitory.jpg" alt="Students in hostel" style="width:100%;height:450px;">*/
+<img src="../storage/images/Hostel_Dormitory.jpg" alt="Students in hostel" style="width:100%;height:450px;">
 <h1><u>TESTIMONIALS</u></h1>
 <p>"What a lovely hostel! Very clean,nice breakfast! The ladies(Tequita and Hannah-sorry for spelling) who worked there were so lovely and told us all the info we needed! Thank You!"</p>
 <p>Vinit Payal(Stay Period 2011-2015)</p>
