@@ -188,7 +188,7 @@ function showSlides(n) {
 </div>
 <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-    <img src="../storage/images/img1.jpeg" style="width:100%">
+    <img src="../storage/images/Hostel_Dormitory.jpg" style="width:100%">
     <div class="text">Caption Text</div>
   </div>
 
@@ -216,7 +216,7 @@ function showSlides(n) {
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
 </div>
-<img src="../storage/images/Hostel_Dormitory.jpg" alt="Students in hostel" style="width:100%;height:450px;">
+
 <h1><u>TESTIMONIALS</u></h1>
 <p>"What a lovely hostel! Very clean,nice breakfast! The ladies(Tequita and Hannah-sorry for spelling) who worked there were so lovely and told us all the info we needed! Thank You!"</p>
 <p>Vinit Payal(Stay Period 2011-2015)</p>
