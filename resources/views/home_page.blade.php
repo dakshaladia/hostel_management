@@ -1,22 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
+<html ng-app     >
 
 <head>
 <meta charset="utf-8">	
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 	
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
- <script>
-$(document).ready(function(){
-      $('.slider').slider();
-     
 
-    });
-    </script>
-  
-  
 
 <style>
 
@@ -63,25 +53,22 @@ h1{
     text-align: center;
     
 }
-.slider .indicators .indicator-item {
-  background-color: #22222;
+/*  background-color: #22222;
   /*border: 3px solid #ffffff;*/
-  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+ /* -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 .slider .indicators .indicator-item.active {
   background-color: #ffffff;
 }
-.slider {
-  width: 100%;
-  margin:0 ;
-}
+
 .slider .indicators {
-  /*bottom: 100px;/
+  /*bottom: 100px;
 z-index: 100; 
-  /* text-align: left; */
-}
+  /* text-align: left; 
+}*/
+
 </style>
   </head> 
 <body>
@@ -99,7 +86,8 @@ z-index: 100;
     <ul class="slides">
       <li>
        
-       <img src="../storage/images/Hostel_Dormitory.jpg" alt="Students in hostel" style="width:100%;height:450px;">
+       <img src="../storage/images/Hostel_Dormitory.jpg" style="width:100%;height:450px;">
+      <div class="caption center-align">
       
       </li>
       <li>
@@ -117,13 +105,23 @@ z-index: 100;
   </div>
      
     
-   
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script>
+$(document).ready(function(){
+      $('.slider').slider({full_width: true});
+     
+
+    });
+    </script>
+  
 
 <img src="../storage/images/Hostel_Dormitory.jpg" alt="Students in hostel" style="width:100%;height:450px;">
 <h1><u>TESTIMONIALS</u></h1>
 <p>"What a lovely hostel! Very clean,nice breakfast! The ladies(Tequita and Hannah-sorry for spelling) who worked there were so lovely and told us all the info we needed! Thank You!"</p>
 <p>Vinit Payal(Stay Period 2011-2015)</p>
 
+  
 
 
 </body>
