@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<html ng-app     >
+<html >
 
 <head>
 <meta charset="utf-8">	
@@ -53,21 +53,26 @@ h1{
     text-align: center;
     
 }
-/*  background-color: #22222;
-  /*border: 3px solid #ffffff;*/
- /* -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+.slider .indicators .indicator-item {
+ background-color: #22222;
+ /* border: 3px solid #ffffff;*/
+ -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 .slider .indicators .indicator-item.active {
   background-color: #ffffff;
 }
+.slider {
+  width: 100%;
+  margin:0 ;
+}
 
 .slider .indicators {
-  /*bottom: 100px;
+ /* bottom: 100px;
 z-index: 100; 
-  /* text-align: left; 
-}*/
+  text-align: left; */
+}
 
 </style>
   </head> 
@@ -84,29 +89,32 @@ z-index: 100;
 
  <div class="slider">
     <ul class="slides">
-      <li>
-       
-       <img src="../storage/images/Hostel_Dormitory.jpg" style="width:100%;height:450px;">
-      <div class="caption center-align">
-      
-      </li>
-      <li>
-        <img src="../storage/images/Hostel_Dormitory.jpg"> 
-        
-      </li>
-      <li>
-        <img src="../storage/images/Hostel_Dormitory.jpg"> 
-       
-      </li>
-      <li>
-       
-      </li>
+  <li>
+                    <img src="../storage/images/Hostel_Dormitory.jpg" alt="Students in hostel" style="width:100%;height:450px;">
+                   
+                </li>
+                <li>
+                    <img src="../storage/images/img5.jpeg" alt="Students in hostel" style="width:100%;height:450px;">
+                    
+                </li>
+                <li>
+                    <img src="../storage/images/img4.jpeg">
+                    
+                </li>
     </ul>
   </div>
      
     
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+ 
+
+<img src="../storage/images/Hostel_Dormitory.jpg" alt="Students in hostel" style="width:100%;height:450px;">
+<h1><u>TESTIMONIALS</u></h1>
+<p>"What a lovely hostel! Very clean,nice breakfast! The ladies(Tequita and Hannah-sorry for spelling) who worked there were so lovely and told us all the info we needed! Thank You!"</p>
+<p>Vinit Payal(Stay Period 2011-2015)</p>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
  <script>
 $(document).ready(function(){
       $('.slider').slider({full_width: true});
@@ -114,13 +122,6 @@ $(document).ready(function(){
 
     });
     </script>
-  
-
-<img src="../storage/images/Hostel_Dormitory.jpg" alt="Students in hostel" style="width:100%;height:450px;">
-<h1><u>TESTIMONIALS</u></h1>
-<p>"What a lovely hostel! Very clean,nice breakfast! The ladies(Tequita and Hannah-sorry for spelling) who worked there were so lovely and told us all the info we needed! Thank You!"</p>
-<p>Vinit Payal(Stay Period 2011-2015)</p>
-
   
 
 
