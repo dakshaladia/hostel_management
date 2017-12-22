@@ -51,6 +51,7 @@ font-size:30px;
 }
 h1{
     text-align: center;
+    color:#FFA500;
     
 }
 .slider .indicators .indicator-item {
@@ -107,10 +108,37 @@ z-index: 100;
     
  
 
-<img src="../storage/images/Hostel_Dormitory.jpg" alt="Students in hostel" style="width:100%;height:450px;">
+
 <h1><u>TESTIMONIALS</u></h1>
-<p>"What a lovely hostel! Very clean,nice breakfast! The ladies(Tequita and Hannah-sorry for spelling) who worked there were so lovely and told us all the info we needed! Thank You!"</p>
+<div class="slider">
+            <ul class="slides">
+                <li>
+                    
+                    <div class="caption center-align">
+                       <p>"What a lovely hostel! Very clean,nice breakfast! The ladies(Tequita and Hannah-sorry for spelling) who worked there were so lovely and told us all the info we needed! Thank You!"</p>
 <p>Vinit Payal(Stay Period 2011-2015)</p>
+                       
+                    </div>
+                </li>
+                <li>
+                   
+                    <div class="caption left-align">
+                       <p>Beautifully decorated. I love the atmosphere. Very helpful and co-operating staff.Thank You! </p>
+                       <p>Mayank Agarwal(Stay Period 2014-2018)</p>
+                        
+                    </div>
+                </li>
+                <li>
+                    
+                    <div class="caption center-align">
+                       <p>Amazing hygiene! Fully satisfied!So well maintained!Thank You! </p>
+                       <p>Suresh Shukla(Stay Period 2012-2016)</p>
+                       
+                    </div>
+                </li>
+            </ul>
+        </div>
+
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
